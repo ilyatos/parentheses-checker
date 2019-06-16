@@ -1,6 +1,7 @@
 {
     "name": "ilyatos/parentheses-checker",
     "description": "Validate your string, that consists of only parentheses.",
+    "version": "1.0.0",
     "license": "proprietary",
     "authors": [
         {
@@ -16,12 +17,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Ilyatos\\Parentheses\\": "src"
+            "Ilyatos\\Parentheses\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ilyatos\\Parentheses\\Test\\": "tests"
+            "Ilyatos\\Parentheses\\Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --testdox"
     }
 }
