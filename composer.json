@@ -1,0 +1,27 @@
+{
+    "name": "ilyatos/parentheses-checker",
+    "description": "Validate your string, that consists of only parentheses.",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ilya Goryachev",
+            "email": "ilyatos.gor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ilyatos\\Parentheses\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ilyatos\\Parentheses\\Test\\": "tests"
+        }
+    }
+}
