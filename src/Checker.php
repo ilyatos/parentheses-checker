@@ -33,7 +33,7 @@ class Checker implements CheckerInterface
      *
      * @return bool
      */
-    public function isCorrect(string $sentence): bool
+    private function isCorrect(string $sentence): bool
     {
         $sentenceAsArray = str_split($sentence);
 
@@ -59,7 +59,7 @@ class Checker implements CheckerInterface
      *
      * @return bool
      */
-    public function isValid(string $sentence): bool
+    private function isValid(string $sentence): bool
     {
         return preg_match(sprintf('/^([%s]*)$/', self::ALLOWED_CHARS), $sentence);
     }
