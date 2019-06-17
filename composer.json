@@ -1,7 +1,7 @@
 {
     "name": "ilyatos/parentheses-checker",
     "description": "Validate your string, that consists of only parentheses.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "proprietary",
     "authors": [
         {
